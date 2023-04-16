@@ -1,3 +1,5 @@
+package collections;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -21,7 +23,7 @@ public class Dictionary {
 
     public String getTranslationOf(String word) {
         if (!dictionary.containsKey(word)) {
-            return "Translation of word '" + word + "' does not present in Dictionary";
+            return "Translation of word '" + word + "' does not present in collections.Dictionary";
         }
         else {
             return word + ": " + dictionary.get(word).toString();

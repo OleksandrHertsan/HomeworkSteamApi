@@ -1,3 +1,5 @@
+package collections;
+
 public class MainForCollections {
     public static void main(String[] args) {
 
@@ -16,7 +18,7 @@ public class MainForCollections {
         Duplicate.getDuplicatesWithCount(source);
 
         System.out.println();
-        System.out.println("-----Dictionary----");
+        System.out.println("-----collections.Dictionary----");
 
 
 
